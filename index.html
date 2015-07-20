@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<!--[if IE]><meta http-equiv="X-UA-Compatible"  content="IE=edge,chrome=1"><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="./css/materialize.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="./css/stylesheet.css" />
+		<title>project Chip</title>
+	</head>
+
+ 	<body class="green darken-3 container">
+
+ 	<div class="">
+	 	<div id="login-screen" class="green row center addoverflow">
+	 		<div class="col s12">
+	 			<div class="row">
+					<button id="login" class="waves-effect waves-light btn-large center-login btn-login col s8 offset-s2 login-btn">LOGIN</button>
+	 			
+					<button id="register" class="waves-effect waves-light btn center-reg btn-reg col s6 offset-s3 reg-btn">REGISTER</button>
+	 			</div>
+
+	 			<!-- NOT VISIBLE AT THE START -->
+	 			<!-- LOGIN FORM -->
+	 			<div id="login-form" class="row setnotvisible">
+					<form class="col s12">
+					  <div class="row">
+					    <div class="input-field col s12">
+							<input id="log-user" type="text" class="validate">
+							<label for="log-user" class="active">Username</label>
+					    </div>
+					    <div class="input-field col s12">
+							<input id="log-pass" type="text" class="validate">
+							<label for="log-pass">Password</label>
+					    </div>
+					  </div>
+					  <div class="row">
+					    <button id="login" class="waves-effect waves-light btn-large col s6 offset-s3">SUBMIT</button>
+					  </div>
+					</form>
+				</div>
+
+				<div id="reg-form" class="row setnotvisible">
+					<p class="reg-header"><strong>Account</strong></p>
+					<div class="divider"></div>
+					<form class="col s12">
+					  <div class="row">
+					    <div class="input-field col s6">
+							<input id="first_name" type="text" class="validate">
+							<label for="first_name" class="active">First Name</label>
+					    </div>
+					    <div class="input-field col s6">
+							<input id="last_name" type="text" class="validate">
+							<label for="last_name">Last Name</label>
+					    </div>
+					    <div class="input-field col s6">
+							<input id="reg-user" type="text" class="validate">
+							<label for="reg-user" class="active">Username</label>
+					    </div>
+					    <div class="input-field col s6">
+							<input id="email" type="email" class="validate">
+							<label for="email">Email</label>
+					    </div>
+					    <div class="input-field col s6">
+							<input id="reg-pass" type="password" class="validate">
+							<label for="reg-pass" class="active">Password</label>
+					    </div>
+					    <div class="input-field col s6">
+							<input id="reg-conf-pass" type="password" class="validate">
+							<label for="reg-conf-pass">Confirm Password</label>
+					    </div>
+					  </div>
+					</form>
+
+					<form class="col s12">
+					<p class="reg-header"><strong>Security</strong></p>
+					<div class="divider"></div><br />
+					  <div class="row">
+					  	<select class="browser-default col s6">
+					      <option value="" disabled selected>Question 1</option>
+					      <option value="1">Mother's Maiden Name</option>
+					      <option value="2">Pet's Name</option>
+					      <option value="3">First Roommate</option>
+					    </select>
+					    <div class="input-field col s6">
+				          <input id="sec-ans-1" type="text" class="validate">
+				          <label for="sec-ans-1">Answer 1</label>
+				        </div>
+					  </div>
+					  <div class="row">
+					  	<select class="browser-default col s6">
+					      <option value="" disabled selected>Question 2</option>
+					      <option value="1">Mother's Maiden Name</option>
+					      <option value="2">Pet's Name</option>
+					      <option value="3">First Roommate</option>
+					    </select>
+					    <div class="input-field col s6">
+				          <input id="sec-ans-1" type="text" class="validate">
+				          <label for="sec-ans-1">Answer 2</label>
+				        </div>
+					  </div>
+					</form>
+
+
+					<div class="row">
+						<button id="login" class="waves-effect waves-light btn-large col s6 offset-s3">SUBMIT</button>
+					</div>
+					
+					
+				</div>
+
+	 		</div>
+ 		</div>
+ 	</div>
+
+
+ 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    	<script type="text/javascript" src="./js/materialize.min.js"></script>
+    	<script type="text/javascript" src="./js/scriptsheet.js"></script>
+ 	</body>
+
+</html>
